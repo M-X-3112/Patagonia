@@ -1,0 +1,71 @@
+.category-baby {margin: 20px 0;}
+.category-baby ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+.category-baby .kid-l {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.h-a-x {
+    font-size: 24px !important;
+    text-align: left;
+}
+@media only screen and (min-width: 420px) {
+    .category-baby ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .category-baby ul li {
+        width: 150px;
+        margin: 10px 20px;
+    }
+    .category-baby .kid-l {
+        font-size: 20px;
+
+    }
+    .img-ccvr {
+        max-height: 350px;
+        border-radius: 20px !important;
+    }
+    .h-a-x {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .category-baby ul {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .h-a-x {
+        font-size: 36px !important;
+    }
+    .category-baby ul li {
+        transition: .5s all;
+        width: 180px;
+        margin: 10px 40px 10px 0;
+    }
+    .category-baby .kid-l {
+        transition: .5s all;
+        font-size: 24px;
+
+    }
+    .img-ccvr {
+        max-height: 600px;
+        border-radius: 30px !important;
+    }
+    .category-baby ul li:hover {
+        background-color: #fff;
+    }
+    .category-baby ul li:hover .kid-l {
+        color: #000;
+    }
+}

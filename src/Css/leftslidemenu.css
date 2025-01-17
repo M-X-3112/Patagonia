@@ -1,0 +1,41 @@
+.left-slide-main {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 110px;
+    left: 0;
+    background-color: white;
+    z-index: 100;
+    font-size: 16px;
+    color: black;
+    transition: 1s ease-in-out;
+    overflow-y: auto;
+  }
+  .left-hidden {left: -100%}
+  .left-x-button {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+      cursor: pointer;
+  }
+  .left-ull {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-menu li {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0 10px 30px;
+    list-style: none;
+  }
+  .left-link-f {
+    text-decoration: none;
+    color: #333;
+}
+.left-link-f:hover {
+    text-decoration: underline 2px solid #333   ;
+}
+body.menu-open {
+    overflow: auto
+}

@@ -1,0 +1,116 @@
+.gears-main {
+    background-color: white;
+    padding: 20px;
+}
+.gears-main h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.gears-main hr {
+    width: 95%;
+    height: 3px;
+}
+.gearshop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gears-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 20px 0;
+    position: relative;
+}
+.gears-card img {
+    width: 100%;
+    object-fit: cover;
+}
+.gears-card-text {padding: 10px; width: 100%;}
+.gears-card-text h5 {font-size: 18px;}
+.gears-card-text h6 {font-size: 16px;}
+.gears-card span { position: absolute; right: 15px; top: 15px; font-size: 24px;}
+.gears-card button {
+    position: absolute;
+    top: 100%;
+    left: 50%; 
+    transform: translate(-50%,-60%);
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px #000;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    .gears-main h1 {font-size: 44px}
+    .gearshop {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .gear-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 210px;
+        margin: 15px;
+        position: relative;
+        height: 350px;
+    }
+    .gears-card-text h5 {font-size: 20px;}
+    .gears-card-text h6 {font-size: 18px;}
+    .gears-card button {font-size: 20px}
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .gears-main h1 {font-size: 50px}
+
+    .gears-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 250px;
+        margin: 15px;
+        position: relative;
+        height: 380px;
+    }
+    .gears-card-text h5 {font-size: 22px;}
+    .gears-card-text h6 {font-size: 20px;}
+    .gears-card span {opacity: 0; transition: 1s all; cursor: pointer}
+    .gears-card button {
+        top: 50%;
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        opacity: 0;
+        transition: 1s all;
+    }
+    .gears-bg {width: 100%; height: 100%; background-color: #333; position: absolute; opacity: 0; transition: 1s all;}
+
+    .gears-card:hover .gears-bg {
+        opacity: .3;
+    }
+
+    .gears-card:hover span {opacity: 1;}
+    .gears-card:hover button {
+        cursor: pointer;
+        opacity: 1;
+    }
+} 

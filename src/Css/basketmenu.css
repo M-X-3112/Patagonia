@@ -1,0 +1,207 @@
+.basket-mainn {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.basket-mainn .left-product {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ironclad {display: none}
+.right-pay p {display: none}
+
+.quant-t {
+    width: 50px;
+    height: 50px;
+    background-color: #111;
+    position: absolute;
+    top: -5px !important;
+    left: -5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px !important;
+}
+
+.left-quant {
+    position: absolute;
+    top: 55% !important;
+    width: 40px !important;
+    height: 40px !important;
+    left: 80% !important;
+    background-color: #111 !important;
+}
+
+.right-quant {
+    position: absolute;
+    top: 70% !important;
+    height: 40px !important;
+    width: 40px !important;
+    left: 80% !important;
+    background-color: #111 !important;
+}
+
+.right-pay {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-sum {
+    padding: 0 20px;
+    background-color: #b7aeae;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.total-sum h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.total-sum h4 {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right-pay button {
+    width: 150px !important;
+    height: 40px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: #111;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+    box-shadow: 4px 4px 1px #999;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 480px) {
+    .basket-mainn {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .basket-mainn .left-product {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quant-t {
+        width: 40px;
+        height: 40px;
+        font-size: 20px !important;
+    }
+
+    .left-quant {
+        position: absolute;
+        top: 50% !important;
+        width: 40px !important;
+        height: 40px !important;
+        left: 20% !important;
+        border-radius: 20px !important;
+    }
+
+    .right-quant {
+        position: absolute;
+        top: 50% !important;
+        height: 40px !important;
+        width: 40px !important;
+        left: 80% !important;
+        border-radius: 20px !important;
+    }
+
+    .right-pay {
+        height: 300px;
+    }
+
+    .total-sum {
+        height: 150px;
+    }
+
+    .total-sum h3 {
+        font-size: 32px;
+    }
+
+    .total-sum h4 {
+        font-size: 24px;
+    }
+
+    .right-pay button {
+        width: 180px !important;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .basket-mainn {
+        flex-direction: row !important;
+        align-items: flex-start !important;
+    }
+    .left-product {
+        width: 60%;
+    }
+    .right-pay {
+        position: sticky;
+        top: 30%;
+        width: 30%;
+        background-color: #e2dede;
+        height: 400px;
+    }
+    .right-pay h3 {
+        font-size: 40px;
+    }
+    .right-pay h4 {
+        font-size: 28px;
+    }
+    .total-sum {
+        background-color: #c2bbbb;
+        align-items: center !important;
+    }
+    .ironclad {
+        display: initial;
+        margin: 30px 20px 10px;
+        align-self: flex-start;
+        font-size: 24px !important;
+    }
+    .right-pay p {
+        display: initial;
+        font-size: 16px !important;
+    }
+}
+
+
+.right-pay button:hover {
+    background-color: orangered;
+    box-shadow: none;
+}
+
+.right-pay button:active {
+    transform: translate(4px, 4px);
+}

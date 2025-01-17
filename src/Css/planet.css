@@ -1,0 +1,59 @@
+.planet-main {
+    padding: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.planet-bg {
+    background: url("../images/planet.jpg") center/cover no-repeat;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planet-h2 {
+    background-color: rgba(223, 230, 230, 0.422);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planet-main h2 {
+    font-size: 2rem;  
+}
+.planet-main p {
+    width: 80%;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.planet-main a {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 480px) {
+    .planet-main h2 {font-size: 3rem}
+    .planet-main p {font-size: 16px}
+    .planet-main a {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .planet-main h2 {font-size: 3.5rem}
+    .planet-main p {font-size: 20px; line-height: 30px;  text-align: center; width: 60%}
+}

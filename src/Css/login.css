@@ -1,0 +1,182 @@
+.login-main {padding: 20px;display: flex; flex-direction: column; align-items: center;}
+.login-main h1 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.login-main .label {
+    top: 30px;
+}
+.login-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 0 20px 0;
+}
+.login-left .container {
+    width: 90%;
+    margin: 40px 0;
+}
+
+.input:focus ~ .label,
+.input:not(:placeholder-shown) ~ .label {
+    top: 10px;
+    color: orangered;
+}
+
+
+
+
+.login-main .login-left a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.login-main button {
+    margin: 20px 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    outline: none;
+    border: 0;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-main p {
+    font-size: 14px;
+    color: #333;
+}
+.login-right {
+    background-color: #000;
+    color: white;
+    width: 280px;
+    height: 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.login-right h3 {
+    font-size: 25px;
+    padding: 5px;
+}
+.login-right p {
+    color: white;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+}
+.login-right a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 30px 0 10px 10px;
+}
+
+@media only screen and (min-width: 480px) {
+
+    .input:focus ~ .label,
+    .input:not(:placeholder-shown) ~ .label {
+    top: 0px;
+    color: orangered;
+    }
+
+
+
+    .login-main {padding: 20px; display: flex; flex-direction: row; justify-content: center;}
+    .input {width: 100%;}
+.login-main h1 {
+    font-size: 32px;
+    margin: 10px 0;
+    padding: 0px;
+}
+.login-left {
+    width: 50%;
+    margin: 0 10px 0 0;
+}
+.login-main .login-left a {
+    font-size: 22px;
+}
+.login-left p {
+    padding: 0;
+}
+.login-main button {
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    font-size: 20px;
+}
+.login-main p {
+    font-size: 16px;
+}
+.login-right {
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    width: 40%;
+    height: auto;
+}
+.login-right h3 {
+    font-size: 28px;
+}
+.login-right p {
+    font-size: 20px;
+    line-height: 2rem;
+
+}
+.login-right a {
+    font-size: 24px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+.login-main h1 {
+    font-size: 50px;
+    margin: 10px 0;
+    padding: 0px;
+}
+.login-main .login-left a {
+    font-size: 30px;
+}
+.login-main button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 24px;
+}
+.login-main p {
+    font-size: 20px;
+}
+.login-right {
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    width: 40%;
+    height: auto;
+    min-height: 500px;
+}
+.login-right h3 {
+    font-size: 34px;
+}
+.login-right p {
+    font-size: 24px;
+    line-height: 2rem;
+}
+.login-right a {
+    font-size: 24px;
+    padding: 25px;
+    border-radius: 20px;
+}
+}

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { ImCancelCircle } from 'react-icons/im'
-import "../Css/leftslideMenu.css"
+import "../Css/leftslidemenu.css"
 import { Link } from 'react-router-dom'
 import { VisibleContext } from '../Layout/Layout'
 

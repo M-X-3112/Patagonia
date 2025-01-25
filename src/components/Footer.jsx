@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import "../Css/Footer.css"
+import "../Css/footer.css"
 import  { DataContext } from '../Data/Data'
 import { Link } from 'react-router-dom'
 function Footer() {

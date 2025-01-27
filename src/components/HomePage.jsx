@@ -29,7 +29,7 @@ function HomePage() {
     return (
     <div className="home-main">
       <div className="home-1">
-        <img src="./src/images/home-1.png" alt="homepage-photo" />
+        <img src="./public/images/home-1.png" alt="homepage-photo" />
         <div className="blue-box">
           <h2>The gift is what they’ll do with it.</h2>
           <div className="link-home">

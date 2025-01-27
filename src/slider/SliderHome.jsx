@@ -10,7 +10,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 function SliderHome() {
   const { cards } = useContext(DataContext);
-  const path = "./public/images/cards/";
+  const path = "../../public/images/cards/";
 
   return (
     <Swiper

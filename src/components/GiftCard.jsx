@@ -5,7 +5,7 @@ function GiftCard() {
     <div className='gift-card'>
         <div className='card'>
             <div className="card-swipe">
-                <img src="./src/images/gift_card_fitz_roy.webp" alt="gift card" />
+                <img src="./public/images/gift_card_fitz_roy.webp" alt="gift card" />
                 <div className='card-text'>
                     <h1>Digital Gift Card</h1>
                     <p>Let them choose with a Patagonia digital gift card. After checkout, 

@@ -22,8 +22,8 @@ function HomePage() {
   };
 
   const {selection, story } = useContext(DataContext);
-  const path = "./src/images/cards/";
-  const path2 = "./src/images/";
+  const path = "./public/images/cards/";
+  const path2 = "./public/images/";
 
 
     return (

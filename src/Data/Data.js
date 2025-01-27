@@ -3,11 +3,11 @@ import { createContext } from "react";
 export const DataContext = createContext()
 const datam = {
     footer: [
-        {id:1001, title:"We guarantee everything we make.", link:"View Ironclad Guarantee", img: "./src/images/footerimg/fimg1.svg", link2: "https://help.patagonia.com/s/article/Ironclad-Guarantee"},
-        {id:1002, title:"We take responsibility for our impact.", link:"Explore Our Footprint", img: "./src/images/footerimg/fimg2.svg", link2: "https://www.patagonia.com/our-footprint/"},
-        {id:1003, title:"We support grassroots activism.", link:"Visit Patagonia Action Works", img: "./src/images/footerimg/fimg3.svg", link2: "https://www.patagonia.com/actionworks/home/choose-location/"},
-        {id:1004, title:"We keep your gear going.", link:"Visit Worn Wear", img: "./src/images/footerimg/fimg4.svg", link2: "https://wornwear.patagonia.com/?utm_source=patww&_gl=1*1bxnpat*_ga*MTMzODcxNTI5MC4xNjk4MTczODUx*_ga_1SYPSJZYJ5*MTcxMjY4MTgwMS40MjguMS4xNzEyNjg2NTE3LjU4LjAuMA.."},
-        {id:1005, title:"We give our profits to the planet.", link:"Read Our Commitment", img: "./src/images/footerimg/fimg5.svg", link2:"https://www.patagonia.com/ownership/?utm_source=em&utm_medium=email&utm_campaign=032924_waterproof_packs&utm_klaviyo_id=01GQMSEZBFS4EVN0XWT17JF1ZY&_kx=C6wWb5w05CnmwyrkOY1UzetDRt60iq6vAGrpv71GOr8.YgU9me"}
+        {id:1001, title:"We guarantee everything we make.", link:"View Ironclad Guarantee", img: "./public/images/footerimg/fimg1.svg", link2: "https://help.patagonia.com/s/article/Ironclad-Guarantee"},
+        {id:1002, title:"We take responsibility for our impact.", link:"Explore Our Footprint", img: "./public/images/footerimg/fimg2.svg", link2: "https://www.patagonia.com/our-footprint/"},
+        {id:1003, title:"We support grassroots activism.", link:"Visit Patagonia Action Works", img: "./public/images/footerimg/fimg3.svg", link2: "https://www.patagonia.com/actionworks/home/choose-location/"},
+        {id:1004, title:"We keep your gear going.", link:"Visit Worn Wear", img: "./public/images/footerimg/fimg4.svg", link2: "https://wornwear.patagonia.com/?utm_source=patww&_gl=1*1bxnpat*_ga*MTMzODcxNTI5MC4xNjk4MTczODUx*_ga_1SYPSJZYJ5*MTcxMjY4MTgwMS40MjguMS4xNzEyNjg2NTE3LjU4LjAuMA.."},
+        {id:1005, title:"We give our profits to the planet.", link:"Read Our Commitment", img: "./public/images/footerimg/fimg5.svg", link2:"https://www.patagonia.com/ownership/?utm_source=em&utm_medium=email&utm_campaign=032924_waterproof_packs&utm_klaviyo_id=01GQMSEZBFS4EVN0XWT17JF1ZY&_kx=C6wWb5w05CnmwyrkOY1UzetDRt60iq6vAGrpv71GOr8.YgU9me"}
     ],
     shops: {
         California : [

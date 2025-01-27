@@ -27,7 +27,7 @@ function Climbing() {
   };
   return (
     <div className="skiing-main">
-      <img className="img-sk" src="./src/images/running.jpg" alt="skiing" />
+      <img className="img-sk" src="./public/images/running.jpg" alt="skiing" />
       <h1>Trail running</h1>
       <p>
         Trail running is an invigorating sport that combines the joys of running

@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { DataContext } from '../Data/Data'
 import "../Css/location.css"
 
-const path = "./src/images/location/"
+const path = "./public/images/location/"
 
 function Location() {
     const { shops } = useContext(DataContext)

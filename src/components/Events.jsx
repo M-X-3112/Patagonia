@@ -6,7 +6,7 @@ function Events() {
   }
   return (
     <div className='event-main'>
-        <img src="./src/images/events.png" alt="events-foto" className='event-foto' />
+        <img src="./public/images/events.png" alt="events-foto" className='event-foto' />
         <h1>Patagonia Events</h1>
         <p className='event-p1'>Explore events both in and outside of our stores with local nonprofits, films and other ways to connect through the power of sport, community and nature.</p>
         <div className='dropdown-event'>

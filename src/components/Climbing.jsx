@@ -27,7 +27,7 @@ function Climbing() {
   };
   return (
     <div className="skiing-main">
-      <img className="img-sk" src="./src/images/climbing.jpg" alt="skiing" />
+      <img className="img-sk" src="./public/images/climbing.jpg" alt="skiing" />
       <h1>Climbing</h1>
       <p>
         Climbing is a thrilling and challenging activity that tests both

@@ -6,7 +6,7 @@ import { IoIosSearch } from 'react-icons/io'
 import { LuUser } from 'react-icons/lu'
 import { VisibleContext } from '../Layout/Layout'
 import { Link } from 'react-router-dom'
-import logo from "../images/Patagonia-Logo.png";
+import logo from "../../public/images/Patagonia-Logo.png";
 
 function HeaderDown() {
   const {setVisible2,setVisible3, visible2,visible3,visible4, setVisible4,visible5, setVisible5, visible6, setVisible6} = useContext(VisibleContext)

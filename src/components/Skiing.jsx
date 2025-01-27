@@ -39,7 +39,7 @@ function Skiing() {
     }
   return (
     <div className="skiing-main">
-      <img className="img-sk" src="./src/images/sking.jpg" alt="skiing" />
+      <img className="img-sk" src="./public/images/sking.jpg" alt="skiing" />
       <h1>Skiing & Snowboarding</h1>
       <p>
         Skiing is an exhilarating winter sport that combines speed, skill, and

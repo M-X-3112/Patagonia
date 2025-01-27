@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Css/events.css"
-import Events from "/images/events.png"
+import Events from "../images/events.png"
 function Events() {
   const changeEvent = () => {
     document.querySelector(".event-p3").innerHTML = "No results"

@@ -1,12 +1,13 @@
 import React from 'react'
 import "../Css/events.css"
+import Events from "../../public/images/events.png"
 function Events() {
   const changeEvent = () => {
     document.querySelector(".event-p3").innerHTML = "No results"
   }
   return (
     <div className='event-main'>
-        <img src="./public/images/events.png" alt="events-foto" className='event-foto' />
+        <img src={Events} alt="events-foto" className='event-foto' />
         <h1>Patagonia Events</h1>
         <p className='event-p1'>Explore events both in and outside of our stores with local nonprofits, films and other ways to connect through the power of sport, community and nature.</p>
         <div className='dropdown-event'>
